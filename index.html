@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 30 HTML Interview Questions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Top 30 Commonly Asked HTML Interview Questions</h1>
+    </header>
+
+    <main>
+        <section id="questions-list">
+            <!-- Easy Questions -->
+            <h2>Easy</h2>
+
+            <!-- Question 1 -->
+            <div class="question">
+                <h3>1. What is HTML?</h3>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>HTML stands for HyperText Markup Language. It is used to create web pages and web applications.
+                        HTML describes the structure of a web page using markup. HTML elements represent different parts
+                        of the page, such as headings, paragraphs, links, and more.</p>
+                </div>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="question">
+                <h3>2. How do you create a hyperlink in HTML?</h3>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>You create a hyperlink using the <code>&lt;a&gt;</code> tag. The <code>href</code> attribute
+                        specifies the destination URL.</p>
+                    <pre><code>&lt;a href="https://example.com"&gt;Visit Example&lt;/a&gt;</code></pre>
+                </div>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="question">
+                <h3>3. How do you include CSS in an HTML document?</h3>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>CSS can be included in an HTML document in three ways: inline styles, internal styles using the
+                        <code>&lt;style&gt;</code> tag, or external stylesheets using the <code>&lt;link&gt;</code> tag.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="question">
+                <h3>4. How do you add an image to an HTML page?</h3>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>You can add an image using the <code>&lt;img&gt;</code> tag with the <code>src</code> attribute
+                        to specify the image source.</p>
+                    <pre><code>&lt;img src="image.jpg" alt="Description of image"&gt;</code></pre>
+                </div>
+            </div>
+
+            <!-- Question 5 -->
+            <div class="question">
+                <h3>5. How do you create a list in HTML?</h3>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>HTML provides two types of lists: ordered lists (<code>&lt;ol&gt;</code>) and unordered lists
+                        (<code>&lt;ul&gt;</code>). List items are added using the <code>&lt;li&gt;</code> tag.</p>
+                </div>
+            </div>
+
+            <!-- Medium Questions -->
+            <h2>Medium</h2>
+
+            <!-- Question 6 -->
+            <div class="question">
+                <h3>6. What is the purpose of the &lt;meta&gt; tag in HTML?</h3>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>The <code>&lt;meta&gt;</code> tag provides metadata about the HTML document, such as charset,
+                        description, and keywords. It helps with SEO and rendering of the page.</p>
+                </div>
+            </div>
+
+            <!-- Question 7 -->
+            <div class="question">
+                <h3>7. What is the difference between &lt;div&gt; and &lt;span&gt; tags?</h3>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>The <code>&lt;div&gt;</code> tag is a block-level element, while the <code>&lt;span&gt;</code>
+                        tag is an inline element. <code>&lt;div&gt;</code> is used for grouping larger content, and
+                        <code>&lt;span&gt;</code> for smaller text within a line.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Question 8 -->
+            <div class="question">
+                <h3>8. What does the &lt;form&gt; tag do?</h3>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>The <code>&lt;form&gt;</code> tag is used to create a form for user input. It typically includes
+                        input fields, checkboxes, radio buttons, and a submit button.</p>
+                </div>
+            </div>
+
+            <!-- Question 9 -->
+            <div class="question">
+                <h3>9. How do you create a table in HTML?</h3>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>A table is created using the <code>&lt;table&gt;</code> tag, with rows created using
+                        <code>&lt;tr&gt;</code>, and data cells within each row using <code>&lt;td&gt;</code>.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Question 10 -->
+            <div class="question">
+                <h3>10. What are semantic HTML elements?</h3>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>Semantic HTML elements clearly describe their meaning in a human- and machine-readable way, like
+                        <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>, and <code>&lt;footer&gt;</code>, as
+                        opposed to non-semantic elements like <code>&lt;div&gt;</code> or <code>&lt;span&gt;</code>.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Advanced Questions -->
+            <h2>Advanced</h2>
+
+            <!-- Question 11 -->
+            <div class="question">
+                <h3>11. What is the purpose of the &lt;!DOCTYPE html&gt; declaration?</h3>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>The <code>&lt;!DOCTYPE&gt;</code> declaration informs the browser about the version of HTML being
+                        used, ensuring proper rendering of the page.</p>
+                </div>
+            </div>
+
+            <!-- Question 12 -->
+            <div class="question">
+                <h3>12. What are HTML5 APIs and how do they work?</h3>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>HTML5 APIs are a set of web technologies that allow for more dynamic interactions, including Web
+                        Storage, Geolocation, and Canvas APIs, enabling features like offline storage, location-based
+                        services, and drawing graphics.</p>
+                </div>
+            </div>
+
+            <!-- Question 13 -->
+            <div class="question">
+                <h3>13. How do you handle responsive design in HTML?</h3>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>Responsive design in HTML is achieved using CSS media queries and viewport settings to make web
+                        pages adapt to different screen sizes and devices.</p>
+                </div>
+            </div>
+
+            <!-- Question 14 -->
+            <div class="question">
+                <h3>14. What is the difference between the id and class attributes, and when should each be used?</h3>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>The <code>id</code> attribute is used for uniquely identifying a single element, while the
+                        <code>class</code> attribute can be used for multiple elements. <code>id</code> should be used
+                        for one-time identification, whereas <code>class</code> is used for applying styles or behaviors
+                        to a group of elements.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Question 15 -->
+            <div class="question">
+                <h3>15. How do you implement HTML5 local storage and session storage?</h3>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>Local storage and session storage are part of HTML5’s Web Storage API. Local storage persists
+                        data across sessions until explicitly deleted, while session storage stores data for the
+                        duration of the page session. You can use the <code>localStorage.setItem()</code> and
+                        <code>sessionStorage.setItem()</code> methods to store data.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Question 16 -->
+
+            <!-- Question 16 -->
+            <div class="question">
+                <h2>16. What are custom data attributes and how are they used in HTML?</h2>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>Custom data attributes start with <code>data-</code>. They are used to store extra information
+                        on an HTML element that doesn't have any visual impact. For example, <code>&lt;div
+                                data-user-id="123"&gt;</code> stores the user ID as a custom attribute. These
+                        attributes can
+                        be accessed via JavaScript using the <code>dataset</code> property.</p>
+                </div>
+            </div>
+
+            <!-- Question 17 -->
+            <div class="question">
+                <h2>17. How do you use the &lt;picture&gt; element for responsive images?</h2>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>The <code>&lt;picture&gt;</code> element allows you to specify multiple image sources for
+                        responsive design. You can provide different image formats or resolutions that are used based on
+                        media conditions, such as screen size or pixel density. Inside the <code>&lt;picture&gt;</code>
+                        tag, you use <code>&lt;source&gt;</code> elements with a <code>srcset</code> attribute to define
+                        different image resources. For example:</p>
+                    <pre><code>&lt;picture&gt;
+      &lt;source media="(min-width: 800px)" srcset="large.jpg"&gt;
+      &lt;source media="(min-width: 400px)" srcset="medium.jpg"&gt;
+      &lt;img src="small.jpg" alt="Responsive image"&gt;
+    &lt;/picture&gt;</code></pre>
+                </div>
+            </div>
+
+            <!-- Question 18 -->
+            <div class="question">
+                <h2>18. What is the purpose of the rel attribute in the &lt;link&gt; tag?</h2>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>The <code>rel</code> attribute in the <code>&lt;link&gt;</code> tag specifies the relationship
+                        between the current document and the linked resource. For example, <code>rel="stylesheet"</code>
+                        tells the browser that the linked file is a CSS stylesheet. There are other values for
+                        <code>rel</code>,
+                        like <code>rel="icon"</code> for linking favicons and <code>rel="nofollow"</code> for links you
+                        don't want search engines to follow.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Question 19 -->
+            <div class="question">
+                <h2>19. How do you use the srcset attribute in the &lt;img&gt; tag for responsive images?</h2>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>The <code>srcset</code> attribute in the <code>&lt;img&gt;</code> tag is used to define a list of
+                        image sources with varying resolutions or sizes. The browser selects the appropriate image
+                        based on the user's device screen size and resolution. For example:</p>
+                    <pre><code>&lt;img src="small.jpg" 
+      srcset="medium.jpg 768w, large.jpg 1280w" 
+      sizes="(max-width: 600px) 480px, 800px" alt="Responsive image"&gt;</code></pre>
+                </div>
+            </div>
+
+            <!-- Question 20 -->
+            <div class="question">
+                <h2>20. What is the Shadow DOM and how can it be used in HTML?</h2>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>The Shadow DOM is a web standard that allows you to encapsulate a section of the DOM tree in a
+                        separate "shadow" root. This is useful for building reusable components where the internal
+                        structure is isolated from the main document's styles and scripts. For example, custom elements
+                        can use shadow DOM to prevent style leakage. To create a shadow DOM, use JavaScript:</p>
+                    <pre><code>let shadow = element.attachShadow({ mode: 'open' });
+    shadow.innerHTML = '&lt;p&gt;This is shadow DOM content&lt;/p&gt;';</code></pre>
+                </div>
+            </div>
+
+            <!-- Question 21 -->
+            <div class="question">
+                <h2>21. How do you implement ARIA roles and attributes for accessibility in HTML?</h2>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>ARIA (Accessible Rich Internet Applications) roles and attributes improve web accessibility for
+                        users with disabilities. ARIA roles, such as <code>role="button"</code> or
+                        <code>role="navigation"</code>,
+                        define the purpose of elements for screen readers. ARIA attributes like <code>aria-label</code>
+                        and <code>aria-hidden</code> provide additional context or hide elements from assistive
+                        technologies.
+                        Example:
+                    </p>
+                    <pre><code>&lt;button aria-label="Close window"&gt;X&lt;/button&gt;</code></pre>
+                </div>
+            </div>
+
+            <!-- Question 22 -->
+            <div class="question">
+                <h2>22. How can you optimize HTML performance for faster page load times?</h2>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>To optimize HTML performance, you can follow best practices like minimizing the use of inline
+                        styles, reducing the number of HTTP requests, compressing images, using async or defer
+                        attributes
+                        for JavaScript, and using external stylesheets. Enabling caching and using a content delivery
+                        network (CDN) can also help speed up page load times.</p>
+                </div>
+            </div>
+
+            <!-- Question 23 -->
+            <div class="question">
+                <h2>23. What is the difference between &lt;article&gt;, &lt;section&gt;, and &lt;aside&gt; elements in
+                    HTML5?</h2>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>The <code>&lt;article&gt;</code> element represents a self-contained composition that could be
+                        distributed independently, such as a blog post or news article. The <code>&lt;section&gt;</code>
+                        element defines a thematic grouping of content within a document. The <code>&lt;aside&gt;</code>
+                        element is used for content that is tangentially related to the main content, such as sidebars
+                        or
+                        related links.</p>
+                </div>
+            </div>
+
+            <!-- Question 24 -->
+            <div class="question">
+                <h2>24. How do you use the &lt;template&gt; element in HTML?</h2>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>The <code>&lt;template&gt;</code> element is used to store HTML fragments that are not rendered
+                        when the page initially loads. The content inside the <code>&lt;template&gt;</code> can be
+                        cloned and inserted into the document later using JavaScript. This is useful for creating
+                        dynamic content. Example:</p>
+                    <pre><code>&lt;template id="my-template"&gt;
+      &lt;div&gt;This content will be rendered later.&lt;/div&gt;
+    &lt;/template&gt;
+    
+    <script>
+        let template = document.getElementById('my-template');
+        let clone = template.content.cloneNode(true);
+        document.body.appendChild(clone);
+    </script></code></pre>
+                </div>
+            </div>
+
+            <!-- Question 25 -->
+            <div class="question">
+                <h2>25. What are the best practices for structuring an HTML5 document?</h2>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>Best practices for structuring an HTML5 document include using semantic HTML tags like
+                        <code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code>, <code>&lt;article&gt;</code>, and
+                        <code>&lt;section&gt;</code> to define meaningful sections of a page. Always include a DOCTYPE
+                        declaration, and use <code>&lt;meta&gt;</code> tags for character encoding and viewport settings
+                        to ensure proper display on all devices.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Question 26 -->
+            <div class="question">
+                <h2>26. What is the purpose of the &lt;!DOCTYPE html&gt; declaration?</h2>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>The <code>&lt;!DOCTYPE html&gt;</code> declaration tells the browser that the document is
+                        written in HTML5. It ensures that the browser renders the page in standards mode, which
+                        avoids quirks mode where old or incorrect HTML rendering might occur.</p>
+                </div>
+            </div>
+
+            <!-- Question 27 -->
+            <!-- Question 27 -->
+            <div class="question">
+                <h2>27. How do you add comments in HTML?</h2>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>Comments in HTML are added using <code>&lt;!--</code> and <code>--&gt;</code>. Anything written
+                        between these tags will not be rendered on the webpage. Comments are useful for annotating code
+                        and leaving notes for yourself or other developers. Example:</p>
+                    <pre><code>&lt;!-- This is a comment --&gt;</code></pre>
+                </div>
+            </div>
+
+            <!-- Question 28 -->
+            <div class="question">
+                <h2>28. What are the differences between block-level and inline-level elements?</h2>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>Block-level elements, like <code>&lt;div&gt;</code>, <code>&lt;p&gt;</code>, and
+                        <code>&lt;h1&gt;</code>, take up the full width of their container and always start on a new
+                        line.
+                        Inline-level elements, like <code>&lt;span&gt;</code> and <code>&lt;a&gt;</code>, take up only
+                        as
+                        much width as necessary and do not start on a new line. Block elements can contain inline
+                        elements,
+                        but inline elements cannot contain block elements.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Question 29 -->
+            <div class="question">
+                <h2>29. What is the purpose of the &lt;meta&gt; tag in HTML?</h2>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>The <code>&lt;meta&gt;</code> tag is used to provide metadata about the HTML document. Metadata
+                        is
+                        information about the data itself and is not displayed on the page. Common uses include
+                        specifying the character set (e.g., UTF-8), the viewport for responsive design, and descriptions
+                        for
+                        search engine optimization (SEO). Example:</p>
+                    <pre><code>&lt;meta charset="UTF-8"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+&lt;meta name="description" content="This is a description of the page."&gt;</code></pre>
+                </div>
+            </div>
+
+            <!-- Question 30 -->
+            <div class="question">
+                <h2>30. What is semantic HTML, and why is it important?</h2>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>Semantic HTML refers to using HTML elements according to their intended meaning rather than
+                        for their appearance. For example, using <code>&lt;article&gt;</code> for content that could
+                        be distributed independently, rather than a <code>&lt;div&gt;</code>. This enhances
+                        accessibility, SEO, and code readability, making it easier for browsers and assistive
+                        technologies
+                        to interpret the content.</p>
+                </div>
+            </div>
+
+            <!-- Question 31 -->
+            <div class="question">
+                <h2>31. What is the difference between &lt;ol&gt; and &lt;ul&gt; elements in HTML?</h2>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>The <code>&lt;ol&gt;</code> element creates an ordered list, where items are numbered
+                        automatically. The <code>&lt;ul&gt;</code> element creates an unordered list, where items
+                        are usually marked with bullet points. Both elements use <code>&lt;li&gt;</code> tags to
+                        represent list items. Example:</p>
+                    <pre><code>&lt;ul&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+                </div>
+            </div>
+
+            <!-- Question 32 -->
+            <div class="question">
+                <h2>32. What is the purpose of the &lt;head&gt; section in an HTML document?</h2>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>The <code>&lt;head&gt;</code> section contains metadata and links to resources that the browser
+                        uses to render the page, but it is not visible to users. It usually includes elements such as
+                        <code>&lt;meta&gt;</code> tags, <code>&lt;title&gt;</code>, stylesheets, and scripts. The
+                        content of the <code>&lt;head&gt;</code> is essential for performance, SEO, and usability.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Question 33 -->
+            <div class="question">
+                <h2>33. How do you create a table in HTML?</h2>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>A table in HTML is created using the <code>&lt;table&gt;</code> element, with rows defined by
+                        <code>&lt;tr&gt;</code>, and data cells defined by <code>&lt;td&gt;</code>. Table headers
+                        use <code>&lt;th&gt;</code>. Example:
+                    </p>
+                    <pre><code>&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Name&lt;/th&gt;
+    &lt;th&gt;Age&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;John&lt;/td&gt;
+    &lt;td&gt;25&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+                </div>
+            </div>
+
+            <!-- Question 34 -->
+            <div class="question">
+                <h2>34. What is the purpose of the &lt;iframe&gt; tag in HTML?</h2>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>The <code>&lt;iframe&gt;</code> tag is used to embed another HTML document inside the current
+                        document. This is often used for embedding external content, such as videos or maps, from
+                        other websites. Example:</p>
+                    <pre><code>&lt;iframe src="https://example.com" width="600" height="400"&gt;
+  &lt;p&gt;Your browser does not support iframes.&lt;/p&gt;
+&lt;/iframe&gt;</code></pre>
+                </div>
+            </div>
+
+            <!-- Question 35 -->
+            <div class="question">
+                <h2>35. How do you create a hyperlink in HTML?</h2>
+                <button class="toggle-answer">Show Answer</button>
+                <div class="answer">
+                    <p>A hyperlink is created using the <code>&lt;a&gt;</code> tag. The <code>href</code> attribute
+                        specifies the URL of the page the link points to. The link text is placed between the
+                        opening and closing <code>&lt;a&gt;</code> tags. Example:</p>
+                    <pre><code>&lt;a href="https://example.com"&gt;Visit Example.com&lt;/a&gt;</code></pre>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> HTML Interview Prep</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
